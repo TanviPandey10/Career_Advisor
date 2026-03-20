@@ -1,0 +1,83 @@
+ .career-form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f7f9fc;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.career-form-container h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.career-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #2b7cff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #1b5fd1;
+}
+
+.results {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.results h3 {
+  text-align: center;
+  color: #333;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.results li strong {
+  color: #2b7cff;
+}
+
